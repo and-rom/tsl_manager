@@ -1,0 +1,38 @@
+* {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+BODY {
+	background: white;
+}
+
+TABLE {
+	width: 100%;
+	border:1px solid black;
+	border-collapse:collapse
+}
+
+TD {
+	border:1px solid black;
+}
+
+TH {
+	border:1px solid black;
+}
+
+INPUT[type=text]{
+	width: 100%;
+	margin: 0px;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+TR.even {
+	background: #c0c0c0 /* Цвет фона четных строк */
+}
+
